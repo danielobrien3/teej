@@ -1,0 +1,16 @@
+a{
+	display: flex;
+	justify-content: center;
+	width:40%;
+	height:20%;
+	margin:auto 4%;
+	font-size: 4vw;
+
+}
+
+span{
+	text-align: center;
+	position: relative;      
+	margin: 0;                                
+	transform: translate(0, -50%)
+}

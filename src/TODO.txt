@@ -1,0 +1,67 @@
+TODO:
+	- Get this on github
+	- Get sidenav working
+		- Make sidenav its own component? 
+		- Change grid to allow for sidenav to exist on its own?
+
+
+		*****STRUCTURE CLEANUP*****
+			- Really probably how it should be.
+			- make grid 
+
+
+			________________________________
+			|title__| title_________________|
+			|		|splash                 |
+			|toolbar|						|
+			|_______|_______________________|
+			|content|	content				|
+			|		|						|
+			|		|						|
+			|		|						|
+			|		|						|
+			---------------------------------
+
+
+			________________________________
+This -->	|_________title_________________|
+			|		    |                   |
+			|toolbar    |	splash_			|
+			|___________|___________________|
+			|content	content				|
+			|								|
+			|								|
+			|								|
+			|								|
+			---------------------------------
+			
+
+			- Make title its own component
+			- Do buttons have to be their own component? probably not.
+				- Delete buttons components... put them in splash banner component
+
+
+
+	- Make shop an intrapage link
+
+	- Make about page
+		- Set up app.html to be able to handle changing sites :: DONE
+		- maybe Make component "main site" and then components
+		  for each "site" after 
+		  	- prob best way
+	- Set up shopify for existing products
+	- Set up form for custom shoes
+		- Talk to taylor about pricing for custom shoes
+			- Do we base pricing off of shoe price + fixed custom price
+			- Do we have taylor decide after the request is added, then 
+			  make a new link for adding the custom shoe to that person's
+			  cart
+			  	- If so, need some easy way of creating this custom addition.
+			  	- At that point, might as well create an interface for taylor 
+			  	  to add any shoe, and within that specify if the shoe should
+			  	  be added to the store or not.
+			  	  	- Then we have to worry about the picture being provided. 
+			  	  	  Meaning any requests must first be private shop adds then 
+			  	  	  taylor can add them after she finishes them and can upload 
+			  	  	  a pic of them.
+	- See if its possible to hook a page up to instagram so that people can post pics of their shoes to the site. 

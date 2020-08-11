@@ -1,0 +1,13 @@
+#shop_list{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.shop_item{
+	min-width:43%;
+	max-width:43%;
+	margin:auto;
+}

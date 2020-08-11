@@ -1,0 +1,7 @@
+mat-card-title, mat-card-subtitle{
+	text-align: center;
+}
+
+mat-card-title{
+	font-size: 4vw;
+}
