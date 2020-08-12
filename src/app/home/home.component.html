@@ -1,20 +1,25 @@
 <!-- The real full container starts here -->
-<div class="full_container">
-  <div class="titleBanner">
-      
-      <!-- button for sidenav -->
-      <button class="hamburger" type="button" mat-button (click)="drawer.toggle()">
-        <i class="material-icons" >&#xe896;</i>
-      </button>
-        
-      <h1 class="title">{{title}}</h1> 
-      <i class="material-icons" id="material-icons-red">&#xe8cc;</i>
-  </div> 
+<mat-sidenav-container [hasBackdrop]="true">
+	<mat-sidenav #drawer mode="over">
+	    	sidenav content
+	</mat-sidenav>
+	<div class="full_container">
+	  <div class="titleBanner">
+	      
+	      <!-- button for sidenav -->
+	      <button class="hamburger" type="button" mat-button (click)="drawer.toggle()">
+	        <i class="material-icons" >&#xe896;</i>
+	      </button>
+	        
+	      <h1 class="title">{{title}}</h1> 
+	      <i class="material-icons" id="material-icons-red">&#xe8cc;</i>
+	  </div> 
 
-  <app-splash-banner class="splashBanner"></app-splash-banner>
+	  <app-splash-banner class="splashBanner"></app-splash-banner>
 
-  <div class="content" role="main">
-      <h2 class="shopHeader">Latest Releases</h2>
-      <app-shop-list></app-shop-list>
-  </div>
-</div>
+	  <div class="content" role="main">
+	      <h2 class="shopHeader">Latest Releases</h2>
+	      <app-shop-list></app-shop-list>
+	  </div>
+	</div>
+</mat-sidenav-container>
