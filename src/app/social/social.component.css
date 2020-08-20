@@ -1,3 +1,14 @@
+mat-sidenav-container{
+	height:100%;
+}
+
+.full_container {
+  display: grid;
+  grid-template-rows: 10% 35% auto;
+  height: 100%;
+}
+
+
 .titleBanner{
 	display:grid;
 	grid-template-columns: 15% 70% 15%;
@@ -49,12 +60,5 @@
 	background-size: cover;
 }
 
-
-
-.full_container {
-  display: grid;
-  grid-template-rows: 10% 35% auto;
-  height: 100%;
-}
 
 

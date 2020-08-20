@@ -13,6 +13,7 @@ import { ShopItemComponent } from './shop-item/shop-item.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { HomeComponent } from './home/home.component';
 import { SocialComponent } from './social/social.component';
+import { InstaListComponent } from './insta-list/insta-list.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { SocialComponent } from './social/social.component';
     ShopItemComponent,
     ShopListComponent,
     HomeComponent,
-    SocialComponent
+    SocialComponent,
+    InstaListComponent
   ],
   imports: [
     BrowserModule,
