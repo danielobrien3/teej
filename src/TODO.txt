@@ -1,4 +1,7 @@
 TODO:
+
+	- Gonna need new splash banner options for social page
+		- See if its possible to still use the same social page component but dynamically load css options depending on if its from home or social component.
 	- Get this on github
 	- Get sidenav working
 		- Make sidenav its own component? 
