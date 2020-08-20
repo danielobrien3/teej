@@ -12,6 +12,7 @@ import { ShopListComponent } from './shop-list/shop-list.component';
 import { ShopItemComponent } from './shop-item/shop-item.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { HomeComponent } from './home/home.component';
+import { SocialComponent } from './social/social.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HomeComponent } from './home/home.component';
     SplashBannerComponent,
     ShopItemComponent,
     ShopListComponent,
-    HomeComponent
+    HomeComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
