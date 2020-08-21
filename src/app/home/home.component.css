@@ -16,6 +16,10 @@
 	border-left:black;
 }
 
+mat-sidenav-container{
+	height:100%;
+}
+
 .hamburger{
 	text-align:center;
 	height:100%;
@@ -45,8 +49,6 @@
 
 .splashBanner{
 	grid-row:2;
-	background-image: url("../../assets/shoes_splash_placeholder.jpg");
-	background-size: cover;
 }
 
 

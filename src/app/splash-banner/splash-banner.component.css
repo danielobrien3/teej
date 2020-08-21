@@ -4,4 +4,41 @@
 	width:100%;
 	height:100%;
 	margin:auto;
+	
 }
+
+:host-context(#home) .splashButtons{
+	background-image: url("../../assets/shoes_splash_placeholder.jpg");
+	background-size: cover;
+}
+
+:host-context(#social) .splashButtons{
+	background-color: pink;
+	background-size: cover;
+}
+
+
+a{
+	display: flex;
+	justify-content: center;
+	width:40%;
+	height:10vw;
+	margin:auto 4%;
+	font-size:4vw;
+}
+
+:host-context(#home) a{
+	height:20%;
+}
+
+:host-context(#social) a{
+	height:50%;
+}
+
+span{
+	text-align: center;
+	position: relative;      
+	margin: 0;                                
+	transform: translate(0, -50%)
+}
+
